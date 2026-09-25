@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "solo_hitboxes",
+  "version": "${version}",
+  "name": "Solo Hitboxes",
+  "description": "Makes mobs easier to hit without changing their physical collision box.",
+  "authors": ["Egor"],
+  "environment": "client",
+  "mixins": [
+    "solo_hitboxes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
